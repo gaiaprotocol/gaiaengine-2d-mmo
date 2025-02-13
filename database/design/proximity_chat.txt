@@ -6,6 +6,7 @@ proximity_chat_messages
   z - numeric - not null
   content - text - nullable
   rich - jsonb - nullable
+  reactions - jsonb[] - nullable
   ip_address - inet - not null
   created_at - timestampz - now()
 	edited_at - timestampz - nullable
