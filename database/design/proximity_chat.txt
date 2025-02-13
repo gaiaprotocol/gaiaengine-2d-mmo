@@ -1,6 +1,9 @@
 proximity_chat_messages
   id - int8 - pk
   sender - text - not null
+  x - numeric - not null
+  y - numeric - not null
+  z - numeric - not null
   content - text - nullable
   rich - jsonb - nullable
   ip_address - inet - not null
