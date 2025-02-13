@@ -1,1 +1,1 @@
-# gaiaengine-mmorpg
+# gaiaengine-mmo
