@@ -1,0 +1,8 @@
+proximity_chat_messages
+  id - int8 - pk
+  sender - text - not null
+  content - text - nullable
+  rich - jsonb - nullable
+  ip_address - inet - not null
+  created_at - timestampz - now()
+	edited_at - timestampz - nullable
